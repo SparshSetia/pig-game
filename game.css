@@ -1,0 +1,64 @@
+body {
+	/*background-color:red; */
+	background-image: url("background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+#dice {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.a {
+	font-size: 50px;
+}
+
+#player1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#player2 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+
+}
+
+#buttons {
+	align-self: center;
+}
+
+#p1c {
+	align-self: center;
+}
+
+#p {
+	top: 20px;
+	left: 250px;
+	font-size: 22px;
+}
+
+#p1a {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	font-size: 50px;
+	color: green;
+	font-style: bold; 
+}
+
+#p2a {
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	font-size: 50px;
+	color: green;
+	font-style: bold; 
+}

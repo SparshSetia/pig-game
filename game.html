@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pig Game</title>
+	<script defer src="game.js"></script>
+	<link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+	<div id="player1">
+		<p class="a">Player 1</p>
+		<p id="p1a" style="visibility: hidden;">*</p>
+		<div>
+			<p>Sum</p>
+			<div id="p1b">10</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<div>
+			<p>Total Score</p>
+			<div id="p1c">20</div>
+		</div>
+	</div>
+
+	<div id="player2">
+		<p class="a">Player 2</p>
+		<p id="p2a" style="visibility: hidden;">*</p>
+		<div>
+			<p>Sum</p>
+			<div id="p2b">50</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<div>
+			<p>Total Score</p>
+			<div id="p2c">99</div>
+		</div>
+	</div>
+
+	<p id="p">Click on new game</p>
+
+	<img src="start.jpg" id="dice">
+	<br>
+	<div id="buttons">
+		<button class="btn-new" onclick="NewGame()">New Game</button>
+		<br>
+		<button class="btn-roll" onclick="RollDice()" style="visibility: hidden;">Roll Dice</button>
+		<br>
+		<button class="btn-hold" onclick="Hold()" style="visibility: hidden;">Hold</button>
+	</div>
+</body>
+</html>
